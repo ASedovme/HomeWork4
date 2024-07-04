@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Задача 3");
         int speed = 58;
         if (speed > 60) {
-            System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штрав");
+            System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф");
         } else {
             System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно");
         }
@@ -75,9 +75,9 @@ public class Main {
         int one = 4;
         int two = 28;
         int three = 27;
-        if (one>two && one>three) {
+        if (one>=two && one>=three) {
             System.out.println("Наибольшее число one");
-        } else if (two>one && two>three) {
+        } else if (two>=one && two>=three) {
             System.out.println("Наибольшее число two");
         } else {
             System.out.println("Наибольшее число three");
